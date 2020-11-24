@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+nav{
+    padding: 20px;
+    margin: 10px;
+}
+ul{
+    /*display: flex;*/
+    /*justify-content: flex-end;*/
+    /*flex-wrap: wrap;*/
+    /*list-style-type: none;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 95%;
+    height: 3%;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 2.5rem;
+
+
+}
+li{
+flex: 0 0 15%;
+    margin: 2%;
+
+}
+li a{
+
+    font-size:25px;
+    color: #40403e;
+    box-shadow: #282c34;
+    border-style: dot-dash;
+    text-decoration: none;
+}
+
+.box {
+
+}
+.btn {
+    color: whitesmoke;
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+}
+.btn:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+}
+.btn-white{
+    color: black;
+    --borderWidth: 3px;
+    background: #ffffff;
+    position: relative;
+    border-radius: var(--borderWidth);
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+}
+.btn-white:after{
+    content: '';
+    position: absolute;
+    color: white;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+}
+.btn-white:hover{
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.btn:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
