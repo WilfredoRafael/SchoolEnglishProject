@@ -2,6 +2,7 @@ import React from 'react';
 import './layout.css';
 import { AiOutlineUser } from "react-icons/ai";
 import {CgArrowRight} from "react-icons/cg";
+
 const layout = ()=>{
     return(
         <div className='box'>

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+.main-title {
+    position: absolute;
+    display: block;
+    text-align: justify;
+    font-family: Raleway;
+    left: 10%;
+    font-size: 25px;
+    width: 25%;
+    z-index: 1;
+    top: 15%;
+    text-justify: inter-word;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-rendering: optimizeLegibility;
+
+}
+
+h1 {
+    color: whitesmoke;
+}
+h1 {
+    color: whitesmoke;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .1em;
+    text-shadow: -1px -1px 1px #111,
+    2px 2px 1px #363636;
+}
+.arrow-icon{
+   font-size: 140px;
+    color: whitesmoke;
+}
