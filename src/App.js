@@ -1,21 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Layout from "./layout/layout";
-import Title from "./title/title";
+import {Route, Switch} from 'react-router-dom';
+import infographic from "./infographic/infographic";
+import Layout from './layout/layout';
 function App() {
   return (
       <>
-          <div >
-              <Layout/>
-              <div className='wrapper-square'>
-                  <Title />
-              </div>
-
-
-
-          </div>
-
-
+              <Switch>
+                  <Route path="/infographic" exact component={infographic}/>
+                  <Route path="/" exact component={Layout}/>
+              </Switch>
       </>
 
   );

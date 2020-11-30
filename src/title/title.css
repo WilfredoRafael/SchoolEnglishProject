@@ -5,10 +5,10 @@
     text-align: justify;
     font-family: Raleway;
     left: 10%;
-    font-size: 25px;
+    font-size: 18x;
     width: 25%;
     z-index: 1;
-    top: 15%;
+    top: 14%;
     text-justify: inter-word;
     text-transform: uppercase;
     font-weight: lighter;
@@ -27,6 +27,37 @@ h1 {
     2px 2px 1px #363636;
 }
 .arrow-icon{
-   font-size: 140px;
+   font-size: 130px;
     color: whitesmoke;
+}
+
+/*@media (max-width: 500px) and (min-height: 401px) {*/
+/*    .main-title {*/
+/*        font-size: 60%;*/
+/*    }*/
+/*}*/
+@media only screen and (max-width:676px){
+    .main-title{
+        font-size: 60%;
+    }
+    .arrow-icon{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 800px ){
+    .main-title{
+        font-size: 80%;
+    }
+    .arrow-icon{
+        font-size: 100px;
+    }
+}
+@media only screen and (max-width: 384px) {
+    .main-title{
+        font-size: 60%;
+    }
+    .arrow-icon{
+        font-size: 80px;
+    }
+
 }

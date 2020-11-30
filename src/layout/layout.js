@@ -1,27 +1,22 @@
 import React from 'react';
+import Title from "../title/title";
+import Navigation from "../navigation/navigation";
+import Button from "../button/button";
 import './layout.css';
-import { AiOutlineUser } from "react-icons/ai";
-import {CgArrowRight} from "react-icons/cg";
+function layout() {
+    return (
+        <>
+            <Navigation> </Navigation>
+            <div className='wrapper-square'>
+                <Title/>
+                <Button/>
 
-const layout = ()=>{
-    return(
-        <div className='box'>
-            <nav>
-                <ul>
-                    <li ><a href="#about">
-                        <p className={'btn-white'}>About Me  <AiOutlineUser className='icon-1'/></p>
-                    </a>
-                    </li>
-                    <li  >
-                        <a href="#Resume">
-                            <p className={'btn'}>
-                                Check my work <CgArrowRight className='icon-2'/>
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+            </div>
+
+
+        </>
+
     );
-};
+}
+
 export default layout;

@@ -1,0 +1,48 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    left: 70%;
+    top: 67%;
+    font-size: 140%;
+    border-radius: 30px;
+    border: 2px solid #cccccc;
+}
+.Button:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+@media only screen and (max-width:768px){
+    .Button{
+    font-size: 70%;
+        left: 40%;
+    }
+}
+@media only screen and (max-width: 800px ){
+    .Button{
+        font-size: 100%;
+    }
+}
+@media only screen and (max-width: 384px) {
+    .Button{
+    font-size: 70%;
+     left: 40%;
+        top: 65%;
+    }
+
+}

@@ -1,134 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200');
-nav{
-    padding: 20px;
-    margin: 10px;
+.wrapper-square{
+    /*background-image: linear-gradient(rgba(128, 123, 123, 0.5),rgba(0, 0, 0, 0.1)), url("https://morgancodes.s3.amazonaws.com/fall_desktop_light_mode.jpg");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-attachment: fixed;*/
+    background-color: #1D1F20;
+    /*height: 50%;*/
+    /*width: 50%;*/
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width:54%;
+    height:67%;
+    margin-top: -13%; /*set to a negative number 1/2 of your height*/
+    margin-left: -27%; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    z-index: 1;
 }
-ul{
-    /*display: flex;*/
-    /*justify-content: flex-end;*/
-    /*flex-wrap: wrap;*/
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 95%;
-    height: 3%;
-    color: white;
-    font-family: 'Raleway';
-    font-size: 2.5rem;
-
-
-}
-li{
-flex: 0 0 17%;
-    margin: 3%;
-
-}
-.icon-1{
-    position: relative;
-    top:3px;
-}
-.icon-2{
-    position: relative;
-    top:5px;
-}
-li a{
-
-    font-size:25px;
-    color: #40403e;
-    box-shadow: #282c34;
-    border-style: dot-dash;
-    text-decoration: none;
-}
-
-.box {
-
-}
-.btn {
-    color: whitesmoke;
-    --borderWidth: 3px;
-    background: #1D1F20;
-    position: relative;
-    border-radius: var(--borderWidth);
-    align-items: center;
-    text-align: center;
-    padding: 3px;
-    transition: 1s;
-}
-.btn:after {
-
-    position: absolute;
-    /*top: calc(-1 * var(--borderWidth));*/
-    /*left: calc(-1 * var(--borderWidth));*/
-    /*height: calc(100% + var(--borderWidth) * 2);*/
-    /*width: calc(100% + var(--borderWidth) * 2); */
-    /*background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);*/
-    /*border-radius: calc(2 * var(--borderWidth));*/
-    /*z-index: -1;*/
-    /*animation: animatedgradient 3s ease alternate infinite;*/
-}
-.btn-white{
-    color: black;
-    --borderWidth: 3px;
-    /*background: #6b6565;*/
-    position: relative;
-    border-radius: var(--borderWidth);
-    align-items: center;
-    text-align: center;
-    padding: 3px;
-    transition: 1s;
-
-}
-.btn-white:after{
-    position: absolute;
-    color: white;
-    /*top: calc(-1 * var(--borderWidth));*/
-    /*left: calc(-1 * var(--borderWidth));*/
-    /*height: calc(100% + var(--borderWidth) * 2);*/
-    /*width: calc(100% + var(--borderWidth) * 2);*/
-    /*background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);*/
-    /*border-radius: calc(2 * var(--borderWidth));*/
-    z-index: -1;
-    /*animation: animatedgradient 3s ease alternate infinite;*/
-}
-.btn-white:hover{
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.btn:hover{
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-@keyframes animatedgradient {
-    0% {
-        background-position: 0% 50%;
+@media (min-width: 500px) and (min-height: 401px) {
+    .wrapper-square {
+        width: 55%;
+        height: 55%;
     }
-    50% {
-        background-position: 100% 50%;
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .wrapper-square {
+        width: 50%;
+        height:55%;
     }
-    100% {
-        background-position: 0% 50%;
+}
+@media only screen and (max-width:480px){
+    .wrapper-square{
+        width: 54%;
+        height: 40%;
+    }
+}
+@media only screen and (max-width: 676px){
+
+    .wrapper-square{
+        width:  60%;
+        height: 50%;
     }
 }
