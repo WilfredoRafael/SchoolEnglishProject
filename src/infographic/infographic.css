@@ -1,5 +1,6 @@
 
 .container{
+    cursor:default;
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -10,6 +11,7 @@
     /*filter: blur(4px);*/
 }
 .element {
+    cursor: auto;
     display: block;
     margin: auto;
 
@@ -29,6 +31,9 @@ img{
         width: 65%;
         height: 100vh;
     }
+}
+.Link:hover{
+    cursor: auto;
 }
 
 

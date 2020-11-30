@@ -6,6 +6,7 @@ import Layout from './layout/layout';
 function App() {
   return (
       <>
+
               <Switch>
                   <Route path="/infographic" exact component={infographic}/>
                   <Route path="/" exact component={Layout}/>

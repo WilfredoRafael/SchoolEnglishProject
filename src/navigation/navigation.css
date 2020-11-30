@@ -149,3 +149,17 @@ li a{
         font-size: 100px;
     }
 }
+@media only screen and (max-width: 384px) {
+    p{
+        font-size: 15px;
+        left: 50%;
+        top: 68%;
+    }
+    li{
+        flex: 0 0 40%;
+    }
+    ul{
+
+    }
+
+}

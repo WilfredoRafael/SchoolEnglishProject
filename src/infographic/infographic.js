@@ -1,19 +1,18 @@
 import React, {useState} from 'react';
 import img from './resources/canva_infographic.jpg';
 import './infographic.css';
-import {Redirect} from "react-router-dom";
-import Layout from "../layout/layout";
-const Infographic = (props) => {
-    const [click,changeClick] = useState(false);
-    const moveToHome= ()=>{
-        changeClick(true);
-    };
-return (
+import {Link} from "react-router-dom";
 
-    <div className='container' >
-        <div className='element'> </div>
-        <img src={img} alt="my infographic"/>
-    </div>
+const Infographic = (props) => {
+
+        return (
+            <Link classname={'LinK'} to={'/'} >
+                <div className='container' >
+                    <div className='element'> </div>
+                    <img src={img} alt="my infographic"/>
+                </div>
+            </Link>
+
 );
     }
 export default Infographic;
