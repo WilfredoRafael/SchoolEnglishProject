@@ -4,4 +4,4 @@ In this little project, I wanted to present for college I was required to presen
 -HTML
 -CSS
 -GIT
-------> Live Project https://elated-noether-b5a1a3.netlify.app/
+------> Live Project https://wonderful-lalande-c7ecd2.netlify.app
