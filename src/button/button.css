@@ -1,6 +1,5 @@
 .Button {
     background-color: transparent;
-    border: none;
     color: white;
     outline: none;
     cursor: pointer;
@@ -12,8 +11,8 @@
     position: absolute;
     left: 70%;
     top: 67%;
-    font-size: 140%;
-    border-radius: 30px;
+    font-size: 120%;
+    border-radius: 20px;
     border: 2px solid #cccccc;
 }
 .Button:hover {
@@ -27,22 +26,18 @@
     -o-transform: scale(1.1);
     transform: scale(1.1);
 }
-@media only screen and (max-width:768px){
+
+@media only screen and (min-width: 850px ){
     .Button{
-    font-size: 70%;
-        left: 40%;
+        font-size: 15px;
     }
 }
-@media only screen and (max-width: 800px ){
-    .Button{
-        font-size: 100%;
-    }
-}
-@media only screen and (max-width: 384px) {
+
+@media only screen and (max-width: 550px ) {
     .Button{
     font-size: 55%;
      left: 50%;
-        top: 68%;
+        top: 72%;
     }
 
 }

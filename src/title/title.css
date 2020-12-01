@@ -5,7 +5,7 @@
     text-align: justify;
     font-family: Raleway;
     left: 10%;
-    font-size: 18x;
+    font-size: 60%;
     width: 25%;
     z-index: 1;
     top: 14%;
@@ -36,7 +36,7 @@ h1 {
 /*        font-size: 60%;*/
 /*    }*/
 /*}*/
-@media only screen and (max-width:676px){
+@media only screen and (min-width:676px){
     .main-title{
         font-size: 60%;
     }
@@ -44,7 +44,7 @@ h1 {
         font-size: 70px;
     }
 }
-@media only screen and (max-width: 800px ){
+@media only screen and (min-width: 700px){
     .main-title{
         font-size: 80%;
     }
@@ -52,12 +52,12 @@ h1 {
         font-size: 100px;
     }
 }
-@media only screen and (max-width: 384px) {
+@media only screen and (max-width: 424px) {
     .main-title{
         font-size: 60%;
     }
     .arrow-icon{
-        font-size: 80px;
+        font-size: 40%;
     }
 
 }

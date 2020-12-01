@@ -4,16 +4,16 @@ import {Route, Switch} from 'react-router-dom';
 import infographic from "./infographic/infographic";
 import Layout from './layout/layout';
 function App() {
-  return (
-      <>
+    return (
+        <>
 
-              <Switch>
-                  <Route path="/infographic" exact component={infographic}/>
-                  <Route path="/" exact component={Layout}/>
-              </Switch>
-      </>
+            <Switch>
+                <Route path="/infographic" exact component={infographic}/>
+                <Route path="/" exact component={Layout}/>
+            </Switch>
+        </>
 
-  );
+    );
 }
 
 export default App;
