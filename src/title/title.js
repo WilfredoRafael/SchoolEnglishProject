@@ -1,5 +1,4 @@
 import React from "react";
-// import ArrowRightAltRoundedIcon from '@material-ui/icons/ArrowRightAltRounded';
 import './title.css';
 import { IoIosArrowRoundForward } from "react-icons/io";
 const title=()=>{

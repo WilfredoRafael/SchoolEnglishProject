@@ -6,9 +6,7 @@
     justify-content: center;
     text-align: center;
     margin-top: 0;
-    /*background-image: linear-gradient(rgba(128, 123, 123, 0.5),rgba(0, 0, 0, 0.1)), url("https://morgancodes.s3.amazonaws.com/fall_desktop_light_mode.jpg");*/
     background: rgba(0,0,0,.8);
-    /*filter: blur(4px);*/
 }
 .element {
     cursor: auto;
