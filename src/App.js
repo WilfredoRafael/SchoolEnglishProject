@@ -8,6 +8,7 @@ function App() {
         <>
 
             <Switch>
+
                 <Route path="/infographic" exact component={infographic}/>
                 <Route path="/" exact component={Layout}/>
             </Switch>
