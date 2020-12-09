@@ -31,33 +31,29 @@ h1 {
     color: whitesmoke;
 }
 
-/*@media (max-width: 500px) and (min-height: 401px) {*/
-/*    .main-title {*/
-/*        font-size: 60%;*/
-/*    }*/
-/*}*/
-@media only screen and (min-width:676px){
+
+@media (min-width: 350px) and (min-height: 812px){
     .main-title{
-        font-size: 60%;
+        font-size: 50%;
     }
     .arrow-icon{
-        font-size: 70px;
+        font-size: 10px;
     }
 }
-@media only screen and (min-width: 700px){
+@media (min-width: 768px) and (min-height: 600px){
     .main-title{
-        font-size: 80%;
+        font-size: 105%;
     }
     .arrow-icon{
-        font-size: 100px;
+        font-size: 150px;
     }
 }
-@media only screen and (max-width: 424px) {
+@media (min-width: 1201px) and (min-height: 700px){
     .main-title{
-        font-size: 60%;
+        font-size: 120%;
     }
     .arrow-icon{
-        font-size: 40%;
+        font-size: 500%;
     }
 
 }
