@@ -2,6 +2,7 @@ import React from 'react';
 import img from './resources/canva_infographic.jpg';
 import './infographic.css';
 import {Link} from "react-router-dom";
+import {MDBAnimation} from "mdbreact";
 
 const Infographic = (props) => {
 
@@ -9,7 +10,10 @@ const Infographic = (props) => {
             <Link className={'LinK'} to={'/'} >
                 <div className='container' >
                     <div className='element'> </div>
-                    <img src={img} alt="my infographic"/>
+                    <MDBAnimation type={'bounce'} infinite >
+                        <img src={img} alt="my infographic"/>
+                    </MDBAnimation>
+
                 </div>
             </Link>
 

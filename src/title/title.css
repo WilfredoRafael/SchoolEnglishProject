@@ -37,15 +37,15 @@ h1 {
         font-size: 50%;
     }
     .arrow-icon{
-        font-size: 10px;
+        font-size: 1em;
     }
 }
 @media (min-width: 768px) and (min-height: 600px){
     .main-title{
-        font-size: 105%;
+        font-size: 90%;
     }
     .arrow-icon{
-        font-size: 150px;
+        font-size: 3em;
     }
 }
 @media (min-width: 1201px) and (min-height: 700px){

@@ -1,33 +1,42 @@
 .wrapper-square{
-
-    background-color: #1D1F20;
-
-    position:absolute;
+    width: 50%;
+    position: absolute;
     top: 50%;
     left: 50%;
-    width:54%;
-    height:67%;
-    margin-top: -13%; /*set to a negative number 1/2 of your height*/
-    margin-left: -27%; /*set to a negative number 1/2 of your width*/
-    border: 1px solid #ccc;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background-color: #1D1F20;
     z-index: 1;
+    border-radius: 10px;
+    /*position:absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*width:54%;*/
+    /*height:67%;*/
+    /*margin-top: -13%; !*set to a negative number 1/2 of your height*!*/
+    /*margin-left: -27%; !*set to a negative number 1/2 of your width*!*/
+    /*border: 1px solid #ccc;*/
+
+
+
 }
-@media (min-width: 350px) and (min-height: 401px) {
+@media (min-width: 300px) {
     .wrapper-square {
-        width: 55%;
-        height: 45%;
+        width: 65%;
+        height: 65%;
     }
 }
-@media (min-width: 500px) and (min-height: 401px) {
+@media (min-width: 700px)  {
     .wrapper-square {
         width: 55%;
         height: 55%;
     }
 }
 
-@media (min-width: 1200px) and (min-height: 700px) {
+@media (min-width: 1200px)  {
     .wrapper-square {
-        width: 55%;
-        height:55%;
+        width: 57%;
+        height:57%;
     }
 }
