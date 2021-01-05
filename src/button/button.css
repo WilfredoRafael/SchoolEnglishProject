@@ -28,7 +28,7 @@
 }
 
 
-@media (min-width: 350px) and (min-height: 401px) {
+@media (min-width: 300px) and (min-height: 401px) {
     .Button{
         font-size: 60%;
         left: 50%;
